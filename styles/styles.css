@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=Roboto:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #b1b1b1;
+  background-color: #F3F6FF;
+}
+body nav {
+  background-color: orange;
+}
+body nav div a span .logo {
+  background-image: url("../assets/logo-cucharas.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: auto 50px;
+  padding: 5px;
+  min-width: 50px;
+  min-height: 50px;
+  transition: all 0.3s ease-in-out;
+}
+body nav div a span .logo:hover {
+  transform: rotate(-180deg);
+}
+body main section #hero {
+  background-image: url("../assets/comidaveggie-backgroundimage.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 90vh;
+}
+body main section #hero div {
+  background-color: rgb(211, 211, 211);
+  border-radius: 5px;
+  padding: 10px;
+}
+body #nosotros-container {
+  min-height: 90vh;
+}
+body #nosotros-container div .items {
+  min-width: 200px;
+  min-height: 200px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Ibarra Real Nova", serif;
+}
+body #nosotros-container div .item1 {
+  background-image: url("../assets/pexels-3.jpg");
+}
+body #nosotros-container div .item2 {
+  background-image: url("../assets/pexels-1.jpg");
+}
+body footer {
+  background-color: orange;
+}
+
+/*# sourceMappingURL=styles.css.map */

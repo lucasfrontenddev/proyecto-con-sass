@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=Roboto:wght@100&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #b1b1b1;
+  background-color: #F3F6FF;
+  color: #28010d;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #b1b1b1;
+  background-color: #F3F6FF;
+  color: #28010d;
+}
+
+.bg-color-orange {
+  background-color: orange;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  background-image: url("../assets/logo-cucharas.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: auto 50px;
+  padding: 5px;
+  min-width: 50px;
+  min-height: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.logo:hover {
+  transform: rotate(-180deg);
+}
+
+#hero {
+  background-image: url("../assets/comidaveggie-backgroundimage.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 90vh;
+}
+
+h1 {
+  font-family: "Roboto";
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+@media (max-width: 870px) {
+  .firma > p {
+    font-size: 0.8rem;
+  }
+  .logo {
+    min-width: 40px;
+    min-height: 40px;
+  }
+  h1 {
+    font-size: 2rem;
+    color: #F3F6FF;
+  }
+  h3 {
+    font-size: 1rem;
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 5px;
+  }
+  #grid-container-nosotros {
+    display: inline-block;
+  }
+  .texto-presentacion {
+    padding: 25%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
